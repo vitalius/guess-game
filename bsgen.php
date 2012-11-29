@@ -313,9 +313,9 @@ function bs() {
   global $bs_job_one, $bs_job_two, $bs_job_three;
   global $bs_verb, $bs_adj, $bs_noun, $bs_noun_sing;
 
-  //$r  = $bs_adj[array_rand($bs_adj)]." ";
-  $r  = $bs_job_one[array_rand($bs_job_one)]." ";
-  $r .= $bs_job_two[array_rand($bs_job_two)]." ";
+  $r  = $bs_adj[array_rand($bs_adj)]." ";
+  $r .= $bs_job_one[array_rand($bs_job_one)].", ";
+  $r .= $bs_job_two[array_rand($bs_job_two)].", ";
   $r .= $bs_job_three[array_rand($bs_job_three)].", ";
   $r .= " always, ";
   $r .= $bs_verb[array_rand($bs_verb)].", ";

@@ -17,7 +17,7 @@ $greet .= "Enter your guess now.";
 $gthan  = "Sorry my number is greater than ".$guess.". Enter new guess";
 $lthan  = "Sorry my number is less than ".$guess.". Enter new guess";
 
-$fail   = "My number was $number. Good luck next time!";
+$fail   = "My number was ".$number.". Good luck next time!";
 
 $win    = "Wow, you've guessed my number. ";
 $win   .= "In my professional opinion. ". bs() . ". ";
